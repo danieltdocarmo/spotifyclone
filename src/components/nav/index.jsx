@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 import './index.css';
@@ -13,7 +14,7 @@ function Nav() {
             <nav className='nav'>
           
                 <ul className='nav-list'>
-                    <li className='nav-list-item'>Premium</li>
+                    <Link to="/registration" className="nav-list-item"> Premium </Link>
                     <li className='nav-list-item'>Ajuda</li>
                     <li className='nav-list-item'>Baixar</li>
                     <li className='nav-list-item-divisor'>|</li>
