@@ -1,0 +1,38 @@
+.header{
+    font-family: Roboto;
+    background: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.logo-img{
+    height: 40px;
+    width: 132px;
+}
+
+.nav{
+    width: 40%;
+}
+.nav-list{
+    display: flex;
+    color: white;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list-item{
+    cursor: pointer;
+}
+
+.nav-list-item:hover{
+    color: #00FF7F	;
+}
+
+.nav-list-item-divisor{
+    font-size: 40px;
+}

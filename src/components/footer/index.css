@@ -1,0 +1,106 @@
+.footer{
+padding-top: 50px;
+width: 100%;
+color: white;
+background-color: black;
+min-height: 300px;
+font-family: Roboto;
+}
+
+.nav-footer{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+
+}
+
+.logo-img{
+    width: 132px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.company-list{
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.company-list-title{
+    color: gray;
+}
+
+.company-list-link{
+    cursor: pointer;
+}
+
+.company-list-link:hover{
+    transition: 0.5s;
+    color: #00FF7F;
+}
+
+.comunitys{
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.comunitys-title{
+    color: gray;
+}
+
+.comunitys-link{
+    cursor: pointer;
+}
+
+.comunitys-link:hover{
+    transition: 0.5s;
+    color: #00FF7F;
+}
+
+.links{
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.links-title{
+    color: gray;
+}
+
+.links-link{
+    cursor: pointer;
+}
+
+.links-link:hover{
+    transition: 0.5s;
+    color: #00FF7F;
+}
+
+.icons{
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.icon-insta {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.icon-face{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.img-twitter{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
