@@ -9,12 +9,12 @@ import logo from '../../assets/imgs/logo.png';
 function Nav() {
     return (
         <header className="header">
-            <img src={logo} alt='logo-spotify' className='logo-img' />
+            <Link to="/" ><img src={logo} alt='logo-spotify' className='logo-img' /></Link>
 
             <nav className='nav'>
           
                 <ul className='nav-list'>
-                    <Link to="/registration" className="nav-list-item"> Premium </Link>
+                    <Link to="/registration" className="nav-list-item">Premium</Link>
                     <li className='nav-list-item'>Ajuda</li>
                     <li className='nav-list-item'>Baixar</li>
                     <li className='nav-list-item-divisor'>|</li>

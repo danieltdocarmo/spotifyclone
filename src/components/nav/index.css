@@ -27,6 +27,8 @@
 
 .nav-list-item{
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .nav-list-item:hover{

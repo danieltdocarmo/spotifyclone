@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import './index.css';
 import Logo from '../../assets/imgs/logo.png';
 import Face from '../../assets/icons/facebook.svg';
@@ -10,7 +12,7 @@ export default function Footer(){
     return (
         <footer className="footer">
             <nav className="nav-footer">
-                <img src={Logo} className="logo-img" alt="Logo Spotify"/>
+                <Link to="/"><img src={Logo} className="logo-img" alt="Logo Spotify"/></Link>
                 
                 <ul className="company-list">
                     <li className="company-list-title"> Empresa</li>
