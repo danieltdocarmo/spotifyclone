@@ -31,14 +31,14 @@ export default function Footer(){
 
                 <ul className="links">
                     <li className="links-title">Links úteis</li>
-                    <li className="links-link">Player da Web</li>
+                    <Link to="/playerweb" className="links-link">Player da Web</Link>
                     <li className="links-link">App móvel</li>
 
                 </ul>
                 <ul className="icons">
-                    <li className="icon-face"><img src={Face} alt="icon-face"/></li>
-                    <li className="icon-insta"><img src={Insta} alt="icon-insta"/></li>
-                    <li className="icon-insta"><img src={Twitter} alt="icon-twitter" className="img-twitter"/></li>
+                    <a href="https://www.facebook.com/SpotifyBrasil/" className="icon-face"><img src={Face} alt="icon-face"/></a>
+                    <a href="https://www.instagram.com/spotifybrasil/?hl=pt-br" className="icon-insta"><img src={Insta} alt="icon-insta"/></a>
+                    <a href="https://twitter.com/spotify" className="icon-insta"><img src={Twitter} alt="icon-twitter" className="img-twitter"/></a>
                 </ul>
                 <section className="location"></section>
                 <section className="util-links"></section>

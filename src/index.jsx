@@ -7,6 +7,7 @@ import './index.css';
 import Base from './components/base';
 import Home from './components/home';
 import Registration from './components/registration';
+import PlayerWeb from './components/playerWeb';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/registration' component={Registration}/>
+            <Route path='/playerweb' component={PlayerWeb}/>
         </Switch>
       </Base>
     </BrowserRouter>

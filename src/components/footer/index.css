@@ -60,6 +60,7 @@ font-family: Roboto;
 .links{
     list-style-type: none;
     line-height: 35px;
+   
 }
 
 .links-title{
@@ -68,6 +69,8 @@ font-family: Roboto;
 
 .links-link{
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .links-link:hover{
@@ -85,6 +88,7 @@ font-family: Roboto;
 }
 
 .icon-insta {
+    border-radius: 10px;
     cursor: pointer;
     width: 30px;
     height: 30px;
@@ -92,6 +96,7 @@ font-family: Roboto;
 }
 
 .icon-face{
+    border-radius: 10px;
     cursor: pointer;
     width: 30px;
     height: 30px;
@@ -99,6 +104,7 @@ font-family: Roboto;
 }
 
 .img-twitter{
+    border-radius: 10px;
     cursor: pointer;
     width: 30px;
     height: 30px;
