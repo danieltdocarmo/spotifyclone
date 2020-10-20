@@ -1,0 +1,12 @@
+.songs-playlist-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interna{
+    height: 100%;
+    width: 100%;
+}

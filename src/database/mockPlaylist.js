@@ -7,63 +7,75 @@ import pericles from '../assets/cover/pericles.png'
 import praia from '../assets/cover/praia.png'
 import tranquilidade from '../assets/cover/tranquilidade.png'
 
+import songs from './mockSongs';
+
+const [thunderstruck, blame, furelise, lucky, know] = songs;
+
 
 export default [
     {
         id: 1,
-        title: 'Chill',
+        title: 'chill',
         cover: chill,
         description: 'Playlist para ouvir durante o dia ',
-        songs: []
-        
+        songs: [thunderstruck, blame, furelise, lucky, know]
+
     },
     {
-        id: 1,
-        title: 'Eletronica',
+        id: 2,
+        title: 'eletronica',
         cover: eletronica,
         description: 'Playlist para ouvir durante o dia ',
-        songs: []
+        songs: [thunderstruck, blame, furelise, lucky, know]
+
+
     },
     {
-        id: 1,
-        title: 'Gil',
+        id: 3,
+        title: 'gil',
         cover: gil,
         description: 'Playlist para ouvir durante o dia ',
-        songs: []
+        songs: [thunderstruck, blame, furelise, lucky, know]
+
     },
     {
-        id: 1,
-        title: 'Hits do Passado',
+        id: 4,
+        title: 'hits',
         cover: hitspassado,
         description: 'Playlist para ouvir durante o dia ',
-        songs: []
+        songs: [thunderstruck, blame, furelise, lucky, know]
+
     },
     {
-        id: 1,
-        title: 'Lennon',
+        id: 5,
+        title: 'lennon',
         cover: lennon,
         description: 'Playlist para ouvir durante o dia ',
-        songs: []
+        songs: [thunderstruck, blame, furelise, lucky, know]
+
     },
     {
-        id: 1,
-        title: 'Pericles',
+        id: 6,
+        title: 'pericles',
         cover: pericles,
         description: 'Playlist para ouvir durante o dia ',
-        songs: []
+        songs: [thunderstruck, blame, furelise, lucky, know]
+
     },
     {
-        id: 1,
+        id: 7,
         title: 'Praia',
         cover: praia,
         description: 'Playlist para ouvir durante o dia ',
-        songs: []
+        songs: [thunderstruck, blame, furelise, lucky, know]
+
     },
     {
-        id: 1,
-        title: 'Tranquilidade',
+        id: 8,
+        title: 'tranquilidade',
         cover: tranquilidade,
         description: 'Playlist para ouvir durante o dia ',
-        songs: []
+        songs: [thunderstruck, blame, furelise, lucky, know]
+
     }
 ]

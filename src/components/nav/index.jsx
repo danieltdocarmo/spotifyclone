@@ -15,8 +15,8 @@ function Nav() {
           
                 <ul className='nav-list'>
                     <Link to="/registration" className="nav-list-item">Premium</Link>
-                    <li className='nav-list-item'>Ajuda</li>
-                    <li className='nav-list-item'>Playlists</li>
+                    <Link to='/help' className='nav-list-item'>Ajuda</Link>
+                    <li className='nav-list-item'>Baixar</li>
                     <li className='nav-list-item-divisor'>|</li>
                     <li className='nav-list-item'>Inscrever-se</li>
                     <li className='nav-list-item'>Log in</li>

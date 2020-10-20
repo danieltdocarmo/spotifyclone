@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import { MdHome, MdSearch, MdLibraryMusic } from 'react-icons/md'
 
 import './index.css';
@@ -7,10 +9,11 @@ import './index.css';
 import importPlaylists from '../../database/mockPlaylist';
 
 
-
-
-export default function PlayerWeb() {
+export default function PlayerWeb({exportInformation}) {
     const [playlists, setName] = React.useState(importPlaylists);
+
+
+
 
     return (
 
@@ -31,15 +34,18 @@ export default function PlayerWeb() {
                         {
                             playlists.map(playlist => {
                                 return (
-                                    <li className="playlist-main-container-list-item">
+                                   
+                                   <Link key={playlist.id} to="/playlist" onClick={()=>{exportInformation(playlist.songs)}}
+                                   className="playlist-main-container-list-item">
                                         <div className="list-item-image">
                                             <img src={playlist.cover} alt="cover" />
                                         </div>
                                         <h4 className="list-item-title">{playlist.title}</h4>
                                         <p className="list-item-description">{playlist.description}</p>
-                                    </li>
+                                    </Link>
                                 )
                             })
+
                         }
                     </ul>
                 </div>
@@ -47,4 +53,9 @@ export default function PlayerWeb() {
         </div>
 
     );
+
+    
 }
+
+
+
